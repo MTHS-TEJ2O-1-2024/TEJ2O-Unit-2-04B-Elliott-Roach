@@ -8,7 +8,8 @@ from microbit import *
 
 temperature_ = temperature
 
-display.clear
+display.clear()
+sleep(1000)
 
 with True:
     if button_a.is_pressed():
