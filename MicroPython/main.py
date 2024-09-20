@@ -11,7 +11,7 @@ temperature_ = temperature
 display.clear()
 sleep(1000)
 
-with True:
+while True:
     if button_a.is_pressed():
         temperature = input.temperature()
         display.scroll("the temperature is:")
