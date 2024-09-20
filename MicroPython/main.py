@@ -1,10 +1,18 @@
 """
-Created by: Mr. Coxall
-Created on: Sep 2020
-This module is a Micro:bit MicroPython program
+Created by: Elliott
+Created on: Sep 2024
+This module is a Micro:bit MicroPython program dose: takes tempiture
 """
 
 from microbit import *
 
+temperature = input.temperature
 
-display.scroll("Hello, World!")
+display.clear
+
+with True:
+    if button_a.is_pressed():
+        temperature = input.temperature()
+        display.scroll("the temperature is:")
+        display.show("temperature")
+        display.scroll("C.")
