@@ -6,7 +6,7 @@ This module is a Micro:bit MicroPython program dose: takes tempiture
 
 from microbit import *
 
-temperature_ = temperature
+temperature = temperature
 
 display.clear()
 sleep(1000)
@@ -15,5 +15,5 @@ while True:
     if button_a.is_pressed():
         temperature = input.temperature()
         display.scroll("the temperature is:")
-        display.show(temperature_)
+        display.show(temperature)
         display.scroll("C.")
