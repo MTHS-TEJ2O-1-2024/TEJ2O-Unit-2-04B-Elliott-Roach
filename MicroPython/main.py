@@ -13,7 +13,7 @@ sleep(1000)
 
 while True:
     if button_a.is_pressed():
-        temp_C = temperature
+        temp_C = temp_C + temperature
         display.scroll("the temperature is:")
-        display.scroll(temp_C)
+        display.sc(temp_C)
         display.scroll("C.")
