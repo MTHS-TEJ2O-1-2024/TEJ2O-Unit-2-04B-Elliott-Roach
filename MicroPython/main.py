@@ -17,3 +17,4 @@ while True:
         display.scroll("the temperature is:")
         display.show(temperature_in_celseis)
         display.scroll("C.")
+        Image.HAPPY
