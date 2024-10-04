@@ -6,7 +6,7 @@ This module is a Micro:bit MicroPython program dose: takes tempiture
 
 from microbit import *
 
-temperature_in_celseis = 0
+temperature_in_celseis = int(0)
 
 display.clear()
 sleep(1000)
